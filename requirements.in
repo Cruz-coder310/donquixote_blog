@@ -1,0 +1,7 @@
+# requirements.in
+django
+python-dotenv
+
+# Dev Tools
+ruff
+pipdeptree
