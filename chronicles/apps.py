@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class ChroniclesConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'chronicles'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "chronicles"
