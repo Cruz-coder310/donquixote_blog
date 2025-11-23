@@ -23,6 +23,9 @@ ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "127.0.0.1").split(",")
 # Application definition
 
 INSTALLED_APPS = [
+    # apps
+    "chronicles.apps.ChroniclesConfig",
+    # default
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
