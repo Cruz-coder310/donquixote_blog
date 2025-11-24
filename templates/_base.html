@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,9 +9,16 @@
                 Donquixote Family
             {% endblock title %}
         </title>
+        <link rel="stylesheet" href="{% static 'css/chronicles.css' %}">
     </head>
     <body>
-        {% block content %}
-        {% endblock content %}
+        <div id="content">
+            {% block content %}
+            {% endblock content %}
+        </div>
+        <div id="sidebar">
+            <h2>Donquixote Family</h2>
+            <p>¡Los que están en la cima determinan lo que está bien y lo que está mal!</p>
+        </div>
     </body>
 </html>
