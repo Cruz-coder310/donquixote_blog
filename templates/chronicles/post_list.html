@@ -1,0 +1,16 @@
+{% extends '_base.html' %}
+{% block title %}
+    Donquixote Chronicles
+{% endblock title %}
+{% block content %}
+    <h1>Donquixote Family Chronicles</h1>
+    {% for post in posts %}
+        <article>
+            <h2>
+                <a href="#">{{ post.title }}</a>
+            </h2>
+            <p>Published {{ post.publish }} by {{ post.author }}</p>
+            <div>{{ post.body|truncatewords:30|linebreaks }}</div>
+        </article>
+    {% endfor %}
+{% endblock content %}
