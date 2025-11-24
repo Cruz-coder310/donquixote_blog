@@ -9,7 +9,7 @@
             <h2>
                 <a href="#">{{ post.title }}</a>
             </h2>
-            <p>Published {{ post.publish }} by {{ post.author }}</p>
+            <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
             <div>{{ post.body|truncatewords:30|linebreaks }}</div>
         </article>
     {% endfor %}
