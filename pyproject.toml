@@ -1,0 +1,7 @@
+# pyproject.toml
+
+[tool.djlint]
+profile = "django"
+extensions = ["html", "htmldjango"]
+indent = 4
+line_length = 80
