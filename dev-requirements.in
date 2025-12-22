@@ -1,0 +1,6 @@
+# dev-requirements.in
+-c requirements.txt
+ruff>=0.14,<1
+pipdeptree>=2.13,<3
+ipython>=8,<9
+litecli>=1,<2

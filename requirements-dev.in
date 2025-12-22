@@ -1,6 +1,0 @@
-# requirements-dev.in
--r requirements.in
-ruff
-pipdeptree
-ipython
-litecli

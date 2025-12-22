@@ -1,4 +1,4 @@
 # requirements.in
-django==5.2.8
-python-dotenv
-django-taggit
+django>=5.2,<5.3
+python-decouple>=3.8
+django-taggit>=5.0
