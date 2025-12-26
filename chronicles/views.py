@@ -51,7 +51,7 @@ def post_detail(request, year, month, day, slug):
         publish__day=day,
         slug=slug,
     )
-    comments = post.commets.filter(active=True)
+    comments = post.comments.filter(active=True)
 
     form = CommentForm()
 
@@ -87,7 +87,7 @@ def post_comment(request, post_id):
 
     return render(
         request,
-        "chronicles/comment.html",
+        "chronicles/post_comment.html",
         {
             "post": post,
             "comment": comment,
