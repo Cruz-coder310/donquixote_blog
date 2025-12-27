@@ -1,4 +1,5 @@
 {% load static %}
+{% load chronicles_extras %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -19,6 +20,7 @@
         <div id="sidebar">
             <h2>Donquixote Family</h2>
             <p>¡Los que están en la cima determinan lo que está bien y lo que está mal!</p>
+            <h3>Published post: {% get_post_count %}</h3>
         </div>
     </body>
 </html>
