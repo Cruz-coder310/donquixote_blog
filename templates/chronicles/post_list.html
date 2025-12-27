@@ -1,4 +1,5 @@
 {% extends '_base.html' %}
+{% load chronicles_extras %}
 {% block title %}
     Donquixote Chronicles
 {% endblock title %}
@@ -18,7 +19,7 @@
                 {% endfor %}
             </p>
             <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
-            <div>{{ post.body|truncatewords:30|linebreaks }}</div>
+            <div>{{ post.body|markdown|truncatewords_html:30 }}</div>
         </article>
     {% endfor %}
     {% include "pagination.html" with page=posts %}
