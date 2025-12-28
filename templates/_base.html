@@ -20,7 +20,9 @@
         <div id="sidebar">
             <h2>Donquixote Family</h2>
             <p>¡Los que están en la cima determinan lo que está bien y lo que está mal!</p>
-            <h3>Published post: {% get_post_count %}</h3>
+            <p>Published post: {% get_post_count %}</p>
+            <h3>Latest Post</h3>
+            {% get_latest_posts 3 %}
         </div>
     </body>
 </html>
