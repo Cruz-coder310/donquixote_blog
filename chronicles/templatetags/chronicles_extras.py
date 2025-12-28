@@ -1,6 +1,7 @@
 import markdown
 from django import template
 from django.utils.html import mark_safe
+from django.db.models import Count
 
 from ..models import Post
 
@@ -24,3 +25,11 @@ def get_post_count():
 def get_latest_posts(count=5):
     latest_posts = Post.published.order_by("-publish")[:count]
     return {"latest_posts": latest_posts}
+
+
+@register.simple_tag
+def get_most_commented_posts(count=3):
+    most_commented_posts = Post.published.annotate(
+        total_comments=Count("comments")
+    ).order_by("-total_comments")[:count]
+    return most_commented_posts
