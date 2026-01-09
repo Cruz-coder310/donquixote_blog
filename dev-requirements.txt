@@ -92,6 +92,8 @@ prompt-toolkit==3.0.52
     # via
     #   ipython
     #   litecli
+psycopg2-binary==2.9.11
+    # via -r dev-requirements.in
 ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.3

@@ -1,0 +1,492 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-11-23T22:46:30.675Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "⚙️ Configura PostgreSQL para Django Sin Errores",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-11-23T22:55:58.037Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "🛠️ Domina Neovim: Conoce a los Especialistas de Tu Taller de Código",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-11-23T23:01:01.700Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "🚀 Testing en Django: ¿pytest o unittest? La respuesta definitiva",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-11-26T19:44:35.208Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "📚 Django Paginator: Cómo Dominar la Paginación con Objetos `Page`",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-12-14T19:23:00.907Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "📚 Django Paginator: Cómo Dominar la Paginación con Objetos `Page`",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-12-14T19:23:29.610Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "🚀 Testing en Django: ¿pytest o unittest? La respuesta definitiva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-12-29T05:42:13.892Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-12-30T06:07:34.600Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Django Paginator: Cómo Dominar la Paginación con Objetos `Page`",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-12-30T06:13:00.928Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Filter Chalenges",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-12-30T08:52:14.465Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Python Books",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-12-30T09:16:03.408Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Testing en Django: ¿pytest o unittest? La respuesta definitiva",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-12-30T09:16:56.036Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Testing en Django: ¿pytest o unittest?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-12-30T09:17:51.032Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Domina Neovim",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Ndx8JciqIzv0hvNntVJWwx$eVbT9nC3YcGsyUvt1MsN0H1nsC1TLKQNeKUrzFarqmw=",
+    "last_login": "2025-12-29T05:40:40.437Z",
+    "is_superuser": true,
+    "username": "jcarcamo",
+    "first_name": "",
+    "last_name": "",
+    "email": "carcamo1cruz@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-11-23T21:01:25.186Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4jw4hjcflhz7taatqxbzlltwm7btdu6g",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDOVARcuvcMZBgYqRpISrsy3l2bdKHb_977LxVoXUpYe57DlNRZgTr8bpH4kesG0p3qrWludZmnqDdF77Tra0v5edndv4NCvXxrHEcCYgaHNrPxQmawgs7zKQuzI49ijPh4tDKCAA7JZUBn0LERSOr9Ae3OOA0:1vUrAe:55MYs86dtotpgGJV0G31XY73dyC_BsmKoBhxWMpgVWM",
+    "expire_date": "2025-12-28T18:50:16.158Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m1mkor46n96cql4xj1wejaq0d0boqjp9",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDOVARcuvcMZBgYqRpISrsy3l2bdKHb_977LxVoXUpYe57DlNRZgTr8bpH4kesG0p3qrWludZmnqDdF77Tra0v5edndv4NCvXxrHEcCYgaHNrPxQmawgs7zKQuzI49ijPh4tDKCAA7JZUBn0LERSOr9Ae3OOA0:1vYEE4:ddzJlk43m17miFhD_exls-ryT3liEIVEfaf1IgozYME",
+    "expire_date": "2026-01-07T02:03:44.438Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m4ems0vol6loltk5xympz10a2urynzb7",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDOVARcuvcMZBgYqRpISrsy3l2bdKHb_977LxVoXUpYe57DlNRZgTr8bpH4kesG0p3qrWludZmnqDdF77Tra0v5edndv4NCvXxrHEcCYgaHNrPxQmawgs7zKQuzI49ijPh4tDKCAA7JZUBn0LERSOr9Ae3OOA0:1va5zk:7bc7KqwMK_WEnCn0GZwNIoqPC6Jq8BI31-_8D48BCJc",
+    "expire_date": "2026-01-12T05:40:40.475Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pblws6zfax3y5gsa73aj3k35we6i1ut2",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDOVARcuvcMZBgYqRpISrsy3l2bdKHb_977LxVoXUpYe57DlNRZgTr8bpH4kesG0p3qrWludZmnqDdF77Tra0v5edndv4NCvXxrHEcCYgaHNrPxQmawgs7zKQuzI49ijPh4tDKCAA7JZUBn0LERSOr9Ae3OOA0:1vNHcK:S7uYF9dwCJcnt1vJUmEFVh3S1De_ykd_Qw_aFH9BFrw",
+    "expire_date": "2025-12-07T21:27:32.222Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sbwzrtu5msc8vwimhik6sjhydh9cm4i8",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDOVARcuvcMZBgYqRpISrsy3l2bdKHb_977LxVoXUpYe57DlNRZgTr8bpH4kesG0p3qrWludZmnqDdF77Tra0v5edndv4NCvXxrHEcCYgaHNrPxQmawgs7zKQuzI49ijPh4tDKCAA7JZUBn0LERSOr9Ae3OOA0:1vYEE2:WocneK25Q_XJ7-bHfh4T8ZsDpVEXXhwtOMkcVmT3ngU",
+    "expire_date": "2026-01-07T02:03:42.614Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "paginator",
+    "slug": "paginator"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "pytest",
+    "slug": "pytest"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "djagno",
+    "slug": "djagno"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "filter",
+    "slug": "filter"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "books",
+    "slug": "books"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "nvim",
+    "slug": "nvim"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "chronicles.post",
+  "pk": 1,
+  "fields": {
+    "title": "⚙️ Configura PostgreSQL para Django Sin Errores",
+    "slug": "configura-postgresql-para-django-sin-errores",
+    "body": "Si alguna vez te has topado con el frustrante error **`permiso denegado al esquema public`** al correr `python manage.py migrate`, esta guía es para ti. Aquí encontrarás el método exacto para crear entornos PostgreSQL desde cero sin problemas, con una analogía clara para entender qué ocurre y qué hacer si ya estás atascado.\r\n\r\n---\r\n\r\n## 🎯 La Solución Definitiva: El Script Que Evita Todos los Errores\r\n\r\nEl método recomendado y a prueba de fallos consiste en asignar la propiedad (`OWNER`) directamente al crear la base de datos. Así eliminas los problemas de permisos desde la raíz.\r\n\r\nEjecuta este script en `psql` como superusuario (`postgres`):\r\n\r\n```sql\r\n-- =====================================================================\r\n-- SCRIPT DE CONFIGURACIÓN DEFINITIVO PARA DJANGO Y POSTGRESQL\r\n-- =====================================================================\r\n\r\n-- Paso 1: Crear un rol (usuario) dedicado exclusivamente para tu app\r\nCREATE USER jcarcamo WITH PASSWORD 'contraseña_segura_y_compleja';\r\n\r\n-- Paso 2: Crear la base de datos y asignarle el dueño inmediatamente\r\nCREATE DATABASE despacho_db OWNER jcarcamo;\r\n\r\n-- Paso 3: Configuración estándar para el rol\r\nALTER ROLE jcarcamo SET client_encoding TO 'utf8';\r\nALTER ROLE jcarcamo SET default_transaction_isolation TO 'read committed';\r\nALTER ROLE jcarcamo SET timezone TO 'America/Mexico_City';\r\n```\r\n\r\n✅ Con esto, no necesitas comandos `GRANT` adicionales.\r\n\r\n---\r\n\r\n## 🏠 Por Qué Funciona: La Analogía de la Casa\r\n\r\n- **Base de Datos (`despacho_db`)** → La **casa completa**  \r\n- **Esquema (`public`)** → La **habitación principal**  \r\n- **`GRANT ON DATABASE`** → La **llave de la puerta principal** (te deja entrar, pero no amueblar)  \r\n- **El Problema** → No puedes **crear tablas** dentro de la habitación  \r\n\r\n👉 La solución: darle la **propiedad de la casa completa** al usuario desde el inicio.\r\n\r\n---\r\n\r\n## ⚡ ¿Ya Tienes el Error? Solución Rápida en 3 Pasos\r\n\r\n1. Conéctate a `psql` como superusuario:\r\n   ```bash\r\n   psql -U postgres\r\n   ```\r\n2. Conéctate a tu base de datos:\r\n   ```sql\r\n   \\c despacho_db\r\n   ```\r\n3. Otorga permisos sobre el esquema `public`:\r\n   ```sql\r\n   GRANT ALL ON SCHEMA public TO jcarcamo;\r\n   ```\r\n\r\nAhora las migraciones funcionarán sin problemas.\r\n\r\n---\r\n\r\n## ✅ Verifica Todo en 30 Segundos\r\n\r\nConéctate como tu usuario de aplicación y revisa:\r\n\r\n| Comando | Resultado Esperado | Qué Verificas |\r\n|---------|-------------------|---------------|\r\n| `SHOW client_encoding;` | `UTF8` | Codificación correcta |\r\n| `SHOW default_transaction_isolation;` | `read committed` | Nivel estándar |\r\n| `SHOW timezone;` | `America/Mexico_City` | Zona horaria consistente |\r\n| `SELECT current_database(), current_user;` | `despacho_db`, `jcarcamo` | Usuario y BD correctos |\r\n| `\\dt` | Tablas de Django | Migraciones exitosas |\r\n\r\nFinalmente:\r\n```bash\r\npython manage.py migrate\r\npython manage.py runserver\r\n```\r\n\r\n---\r\n\r\n## 💡 Dato Clave para WSL1\r\n\r\nSi usas **WSL1 con PostgreSQL en Windows**, instala:\r\n\r\n```bash\r\npip install psycopg2-binary\r\n```\r\n\r\nEste paquete incluye todo lo necesario y evita dependencias externas como `libpq-dev`.\r\n\r\n---\r\n\r\n## 🎬 Contexto Operativo Inicial\r\n\r\n- **Aplicación (Django)**: corre en **WSL1**  \r\n- **Base de Datos (PostgreSQL)**: servidor en **Windows**  \r\n- **Conexión**: asegúrate de que `psql.exe` esté en tu PATH desde WSL1  \r\n\r\n---\r\n\r\n## 📌 Resumen\r\n\r\n- Crea tu usuario y base de datos con `OWNER` desde el principio.  \r\n- Verifica la configuración en segundos.  \r\n- Si ya cometiste el error, usa `GRANT ALL ON SCHEMA public TO tu_usuario;`.  \r\n\r\nCon esta guía, nunca más perderás tiempo con errores de permisos en PostgreSQL.",
+    "publish": "2025-11-23T22:41:50Z",
+    "created": "2025-11-23T22:46:30.637Z",
+    "updated": "2025-11-23T22:46:30.637Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "chronicles.post",
+  "pk": 2,
+  "fields": {
+    "title": "Domina Neovim",
+    "slug": "domina-neovim-conoce-a-los-especialistas-de-tu-taller-de-codigo",
+    "body": "Imagina tu editor de texto como un taller mecánico de élite, donde cada herramienta es un especialista que perfecciona tu código. Esta analogía te ayudará a entender cómo cada componente de Neovim trabaja en sincronía para elevarte al siguiente nivel.\r\n\r\n---\r\n\r\n### **Los Especialistas de Tu Taller**\r\n\r\n**⚙️ LSP (Language Server Protocol) – El Ingeniero Mecánico**\r\n**Función:** Garantiza la **corrección del lenguaje**.\r\n**Tareas:** Detecta errores de sintaxis, identifica variables no definidas y analiza problemas lógicos en tiempo real. Profundiza en el \"idioma\" de tu código para asegurar que todo funcione a la perfección.\r\n\r\n**🛠️ nvim-cmp (Autocompletado) – El Ayudante de Taller**\r\n**Función:** Multiplica tu **velocidad de escritura**.\r\n**Tareas:** Se anticipa a tus necesidades, sugiriendo variables, funciones y fragmentos de código. Es como tener un asistente que te pasa exactamente la herramienta que necesitas antes de que la pidas.\r\n\r\n**🎨 Conform (Formateador) – El Pintor y Chapista**\r\n**Función:** Asegura la **estética y consistencia del código**.\r\n**Tareas:** Aplica automáticamente reglas de estilo: espaciado, saltos de línea, indentación. Transforma tu código en un trabajo limpio y profesional, sin importar quién lo escribió.\r\n\r\n**✅ nvim-lint (Linter) – El Inspector de Calidad**\r\n**Función:** Vela por la **calidad y las buenas prácticas**.\r\n**Tareas:** Revisa patrones problemáticos, uso ineficiente de recursos y prácticas no recomendadas. Funciona incluso cuando tu código \"ya funciona\", previniendo deuda técnica.\r\n\r\n---\r\n\r\n### **La Infraestructura que Lo Hace Posible**\r\n\r\n**🗺️ Treesitter – Los Planos del Motor**\r\n**Función:** Proporciona la **estructura semántica del código**.\r\n**Descripción:** No es una herramienta que uses directamente, pero es el cimiento técnico que permite a LSP, Linters y demás \"leer\" tu código con precisión quirúrgica. Son los planos que guían a todos los especialistas.\r\n\r\n---\r\n\r\n### **💡 Bonus: Consejo Rápido para Linux**\r\n\r\n¿Necesitas ver solo los paquetes que *tú* instalaste manualmente en tu sistema APT, sin el ruido de dependencias? Usa:\r\n\r\n```bash\r\napt-mark showmanual\r\n```\r\n\r\nObtendrás una lista limpia y corta de tus \"programas principales\", ideal para gestionar y documentar tu entorno de trabajo.",
+    "publish": "2025-11-23T22:54:57Z",
+    "created": "2025-11-23T22:55:58.018Z",
+    "updated": "2025-12-30T09:17:51.002Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "chronicles.post",
+  "pk": 3,
+  "fields": {
+    "title": "Testing en Django: ¿pytest o unittest?",
+    "slug": "testing-en-django-pytest-o-unittest-la-respuesta-definitiva",
+    "body": "**pytest es el estándar de facto en la comunidad Python moderna y se integra perfectamente con Django mediante el plugin `pytest-django`.**\r\n\r\nAunque `unittest` (la base de `django.test.TestCase`) viene integrado y funciona correctamente, `pytest` ofrece una experiencia de desarrollo mucho más agradable, legible y potente. Aquí te muestro una comparativa clara para ayudarte a decidir.\r\n\r\n---\r\n\r\n## Comparativa directa: unittest (Django) vs. pytest\r\n\r\n| Característica | unittest (Integrado en Django) | pytest (con pytest-django) |\r\n| :--- | :--- | :--- |\r\n| **Estándar** | Biblioteca estándar de Python y Django | Estándar de la comunidad Python |\r\n| **Aserciones** | Métodos específicos: `self.assertEqual()`, `self.assertTrue()` | Palabra clave `assert` nativa: `assert a == b`, `assert x is True` |\r\n| **Configuración** | Basada en clases (`TestCase`) y métodos (`setUp`, `tearDown`) | **Fixtures**: funciones simples, flexibles, reusables y explícitas |\r\n| **Legibilidad** | Más verboso con boilerplate repetitivo | Más limpio y conciso, permite funciones simples |\r\n| **Ecosistema** | Limitado | Enorme: cobertura, paralelización, BDD y más |\r\n\r\n---\r\n\r\n## 3 razones por las que pytest es la mejor elección\r\n\r\n### 1. Aserciones mucho más limpias y expresivas\r\nEsto es lo más impactante. Mira la diferencia:\r\n\r\n```python\r\n# unittest\r\nself.assertEqual(response.status_code, 200)\r\n\r\n# pytest\r\nassert response.status_code == 200\r\n```\r\n\r\nCuando un `assert` falla en pytest, obtienes un **reporte de introspección fantástico** que muestra exactamente qué valores tenían las variables.\r\n\r\n### 2. Fixtures: la joya de la corona\r\nLos *fixtures* son la característica más potente de pytest. Reemplazan el `setUp()` tradicional con funciones que se \"inyectan\" como argumentos.\r\n\r\n**Ventajas clave:**\r\n- **Reusabilidad:** Una fixture se define una vez y la usas en cientos de tests\r\n- **Modularidad:** Las fixtures pueden depender de otras fixtures\r\n- **Claridad:** El test declara explícitamente sus dependencias (`def test_mi_vista(client, user_autenticado):`)\r\n- **Control del alcance:** Ejecución por sesión, módulo, clase o función\r\n\r\n### 3. Menos código repetitivo\r\nCon pytest no necesitas clases que hereden de `TestCase`. Tus tests pueden ser simples funciones.\r\n\r\n**Comparación de código:**\r\n\r\n```python\r\n# unittest\r\nfrom django.test import TestCase\r\nfrom mi_app.models import MiModelo\r\n\r\nclass MiModeloTest(TestCase):\r\n    def setUp(self):\r\n        self.objeto = MiModelo.objects.create(nombre=\"Test\")\r\n\r\n    def test_nombre_del_modelo(self):\r\n        self.assertEqual(self.objeto.nombre, \"Test\")\r\n```\r\n\r\n```python\r\n# pytest\r\nimport pytest\r\nfrom mi_app.models import MiModelo\r\n\r\n@pytest.mark.django_db\r\ndef test_nombre_del_modelo():\r\n    objeto = MiModelo.objects.create(nombre=\"Test\")\r\n    assert objeto.nombre == \"Test\"\r\n```\r\n\r\n---\r\n\r\n## 🚀 Guía rápida: tu primer test con pytest en Django\r\n\r\n### Instalación\r\n```bash\r\npip install pytest pytest-django\r\n```\r\n\r\n### Configuración\r\nCrea `pytest.ini` en la raíz junto a `manage.py`:\r\n\r\n```ini\r\n[pytest]\r\nDJANGO_SETTINGS_MODULE = tu_proyecto.settings\r\npython_files = tests.py test_*.py *_tests.py\r\n```\r\n\r\n### Tu primer test\r\nCrea el archivo `mi_app/tests/test_views.py`:\r\n\r\n```python\r\nimport pytest\r\nfrom django.urls import reverse\r\n\r\n@pytest.mark.django_db\r\ndef test_vista_principal_status_code(client):\r\n    \"\"\"\r\n    'client' es un fixture de pytest-django,\r\n    equivalente a self.client de Django.\r\n    \"\"\"\r\n    url = reverse('index')\r\n    response = client.get(url)\r\n    assert response.status_code == 200\r\n```\r\n\r\n### Ejecución\r\nSimplemente ejecuta `pytest` en tu terminal:\r\n\r\n```bash\r\n$ pytest\r\n================== test session starts ===================\r\nplatform linux -- Python 3.10.6, pytest-7.1.2, ...\r\nplugins: django-4.5.2\r\n...\r\ncollected 1 item\r\n\r\nmi_app/tests/test_views.py .                     [100%]\r\n\r\n=================== 1 passed in 0.25s ====================\r\n```\r\n\r\n---\r\n\r\n## Herramientas esenciales para tu arsenal\r\n\r\nIndependientemente del runner que elijas, estas herramientas son imprescindibles:\r\n\r\n- **`factory-boy`**: La mejor forma de crear datos de prueba. Genera modelos complejos con una línea (`UserFactory()`) en lugar de crear manualmente cada objeto.\r\n- **`pytest-cov`**: Mide el porcentaje de código ejecutado por tus tests. Vital para identificar brechas en tu cobertura.\r\n- **`unittest.mock`**: (Integrado en Python) Simula componentes externos como APIs para que tus tests sean rápidos y aislados.\r\n\r\n---\r\n\r\n## Conclusión\r\n\r\nUsa **pytest** con **pytest-django**. Combínalo con **factory-boy** para datos y **pytest-cov** para cobertura. Esta es la configuración moderna, potente y más productiva para testear aplicaciones Django.",
+    "publish": "2025-11-23T23:00:40Z",
+    "created": "2025-11-23T23:01:01.692Z",
+    "updated": "2025-12-30T09:16:56.016Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "chronicles.post",
+  "pk": 4,
+  "fields": {
+    "title": "Django Paginator: Cómo Dominar la Paginación con Objetos `Page`",
+    "slug": "django-paginator-como-dominar-la-paginacion-con-objetos-page",
+    "body": "## Introducción  \r\nCuando trabajamos con listas largas en Django —como un blog con decenas o cientos de artículos— la paginación se convierte en una necesidad. Sin embargo, muchos desarrolladores principiantes creen que lo que envían al contexto es simplemente un **QuerySet**. La realidad es más interesante: Django nos entrega un objeto mucho más poderoso, la clase **`Page`**, que no solo contiene los datos, sino también herramientas para navegar y mostrar información contextual.  \r\n\r\nEn este artículo descubrirás cómo funciona realmente el `Paginator`, qué es un objeto `Page` y cómo aprovecharlo al máximo en tus templates.  \r\n\r\n---\r\n\r\n## ¿Qué estás pasando realmente al Context?  \r\nEn tu vista, cuando usas `Paginator`, lo que envías al contexto no es un QuerySet crudo, sino una instancia de la clase `Page`.  \r\n\r\n```python\r\nfrom django.core.paginator import Paginator\r\n\r\ndef lista_posts(request):\r\n    post_list = Post.objects.all()\r\n    paginator = Paginator(post_list, 10)  # 10 posts por página\r\n\r\n    page_num = request.GET.get('page')\r\n    page_obj = paginator.get_page(page_num)\r\n\r\n    return render(request, 'blog/index.html', {'posts': page_obj})\r\n```\r\n\r\n👉 **Metáfora útil:**  \r\n- El **QuerySet** es la biblioteca completa.  \r\n- El **Paginator** es el bibliotecario que organiza los libros.  \r\n- El **Page** es el carrito que recibes con los libros de esa página, más información sobre dónde estás y cómo moverte.  \r\n\r\n---\r\n\r\n## ¿Por qué funciona el bucle `for` directamente?  \r\nDjango diseñó la clase `Page` para ser **iterable**. Gracias al método mágico `__iter__`, cuando escribes en tu template:  \r\n\r\n```html\r\n{% for post in posts %}\r\n    <h2>{{ post.title }}</h2>\r\n{% endfor %}\r\n```  \r\n\r\nEl objeto `Page` delega la iteración a su atributo interno `object_list`. Por eso se siente tan natural recorrerlo como si fuera un QuerySet.  \r\n\r\n---\r\n\r\n## Los \"juguetes\" de la caja `Page`  \r\nEl objeto `Page` no solo contiene los datos, también ofrece métodos y atributos que simplifican la lógica en los templates:  \r\n\r\n### 🔹 Navegación  \r\n- `posts.number`: Página actual.  \r\n- `posts.has_previous` / `posts.has_next`: ¿Hay páginas antes o después?  \r\n- `posts.has_other_pages`: ¿Existen más páginas además de la actual?  \r\n\r\n### 🔹 Enlaces  \r\n- `posts.previous_page_number`: Número de la página anterior (solo si existe).  \r\n- `posts.next_page_number`: Número de la siguiente página.  \r\n\r\n### 🔹 Estadísticas (vía el padre `paginator`)  \r\n- `posts.paginator.count`: Total de objetos.  \r\n- `posts.paginator.num_pages`: Total de páginas.  \r\n- `posts.paginator.page_range`: Rango iterable de páginas.  \r\n\r\n### 🔹 Índices  \r\n- `posts.start_index`: Primer elemento en la página actual.  \r\n- `posts.end_index`: Último elemento en la página actual.  \r\n\r\n---\r\n\r\n## Ejemplo Maestro: Barra de Paginación en el Template  \r\nCon solo la variable `posts`, puedes construir una paginación robusta:  \r\n\r\n```html\r\n<div class=\"lista-posts\">\r\n    {% for post in posts %}\r\n        <h2>{{ post.title }}</h2>\r\n    {% endfor %}\r\n</div>\r\n\r\n<div class=\"info-paginacion\">\r\n    <p>\r\n        Viendo elementos del {{ posts.start_index }} al {{ posts.end_index }} \r\n        de un total de {{ posts.paginator.count }} posts.\r\n    </p>\r\n</div>\r\n\r\n<div class=\"controles\">\r\n    <span class=\"step-links\">\r\n        {% if posts.has_previous %}\r\n            <a href=\"?page=1\">&laquo; Inicio</a>\r\n            <a href=\"?page={{ posts.previous_page_number }}\">Anterior</a>\r\n        {% endif %}\r\n\r\n        <span class=\"current\">\r\n            Página {{ posts.number }} de {{ posts.paginator.num_pages }}.\r\n        </span>\r\n\r\n        {% if posts.has_next %}\r\n            <a href=\"?page={{ posts.next_page_number }}\">Siguiente</a>\r\n            <a href=\"?page={{ posts.paginator.num_pages }}\">Final &raquo;</a>\r\n        {% endif %}\r\n    </span>\r\n</div>\r\n```  \r\n\r\n---\r\n\r\n## Truco Avanzado: Paginación Elidida  \r\nCuando tienes cientos de páginas, mostrar todos los números no es práctico. Django ofrece el método `get_elided_page_range` para generar rangos inteligentes:  \r\n\r\n```python\r\nposts.paginator.get_elided_page_range(posts.number, on_each_side=2, on_ends=1)\r\n```  \r\n\r\nEsto permite mostrar algo más elegante, como:  \r\n`1 ... 4 5 6 ... 100`  \r\n\r\n---\r\n\r\n## Conclusión  \r\nLa paginación en Django no es solo dividir listas: es aprovechar el poder del objeto `Page`. Al entender que lo que pasas al contexto es un gestor inteligente, puedes mantener tus vistas limpias y trasladar la lógica de navegación directamente al template.  \r\n\r\n👉 **Reflexión final:** La próxima vez que implementes paginación, piensa en tu `Page` como una caja de herramientas lista para usar. Explórala, juega con sus atributos y verás cómo tu experiencia de usuario mejora notablemente.",
+    "publish": "2025-11-26T19:43:19Z",
+    "created": "2025-11-26T19:44:35.020Z",
+    "updated": "2025-12-30T06:07:34.464Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "chronicles.post",
+  "pk": 5,
+  "fields": {
+    "title": "Filter Chalenges",
+    "slug": "filter-chalenges",
+    "body": "Excelente iniciativa. Los _custom filters_ son herramientas poderosas para manipular la presentación sin ensuciar tus Vistas (Views) ni tus Modelos.\r\n\r\nAquí tienes 4 ideas prácticas y muy usadas en blogs profesionales, explicadas conceptualmente para que las implementes:\r\n\r\n### 1. Tiempo de Lectura Estimado (`read_time`)\r\n\r\nMuy popular en sitios como Medium. Le da al usuario una idea de cuánto tardará en leer tu post.\r\n\r\n- **La Lógica:**\r\n  La velocidad promedio de lectura es de unas **200 palabras por minuto**.\r\n  1.  Cuentas las palabras del texto (`len(value.split())`).\r\n  2.  Divides entre 200.\r\n  3.  Redondeas hacia arriba (un post de 10 palabras es \"1 min\", no \"0 min\").\r\n- **Uso:** `{{ post.body|read_time }}`\r\n- **Reto:** ¿Cómo manejar si el resultado es menos de un minuto? (Mínimo devolver 1).\r\n\r\n### 2. Resaltar Texto de Búsqueda (`highlight_search`)\r\n\r\nSi tu blog tiene un buscador, es excelente UX resaltar la palabra que el usuario buscó dentro de los resultados.\r\n\r\n- **La Lógica:**\r\n  Este filtro recibe dos argumentos: el texto completo y la palabra a buscar (`query`).\r\n  1.  Usas `value.replace(query, f'<span class=\"highlight\">{query}</span>')` (o expresiones regulares para ignorar mayúsculas/minúsculas `re.sub`).\r\n  2.  **OJO:** Como estás inyectando HTML (`<span>`), necesitas usar `mark_safe` al final, igual que con tu filtro de Markdown.\r\n- **Uso:** `{{ post.title|highlight_search:request.GET.q }}`\r\n\r\n### 3. Embed Automático de YouTube (`youtube_embed`)\r\n\r\nA veces quieres pegar solo la URL de un video en tu post y que mágicamente aparezca el reproductor (iframe), sin tener que copiar el código de inserción gigante de Google.\r\n\r\n- **La Lógica:**\r\n  1.  Detectas si el texto es una URL de YouTube (usando Regex).\r\n  2.  Extraes el **ID del video** (ej: `v=dQw4w9WgXcQ`).\r\n  3.  Reemplazas la URL por el string del iframe: `<iframe src=\"https://www.youtube.com/embed/EL_ID_AQUI\">...</iframe>`.\r\n  4.  Requiere `mark_safe`.\r\n- **Uso:** `{{ post.video_url|youtube_embed }}`\r\n\r\n### 4. Filtro de Gravatar (`gravatar_url`)\r\n\r\nPara la sección de comentarios. Si no quieres manejar subida de imágenes de usuarios, usa Gravatar (el estándar de avatares asociado al email).\r\n\r\n- **La Lógica:**\r\n  Gravatar funciona generando un hash MD5 del correo electrónico.\r\n  1.  Recibes el email (`value`).\r\n  2.  Lo normalizas (lower case, strip spaces).\r\n  3.  Generas el hash MD5 con la librería `hashlib`.\r\n  4.  Retornas la URL: `f\"https://www.gravatar.com/avatar/{hash}\"`.\r\n- **Uso:** `<img src=\"{{ comment.email|gravatar_url }}\">`\r\n\r\n### Consejo Pro: Encadenamiento\r\n\r\nRecuerda que los filtros se pueden encadenar.\r\n\r\nImagina que quieres mostrar un extracto (resumen), renderizar el Markdown y resaltar una búsqueda:\r\n\r\n```html\r\n{{ post.body|markdown|truncatewords:30|highlight_search:query }}\r\n```\r\n\r\n_(Nota: El orden importa. Si cortas las palabras después de generar el HTML del markdown, podrías cortar una etiqueta a la mitad y romper el diseño. Generalmente: Markdown al final, o truncatewords_html de Django)._",
+    "publish": "2025-12-30T06:09:30Z",
+    "created": "2025-12-30T06:13:00.832Z",
+    "updated": "2025-12-30T06:13:00.832Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "chronicles.post",
+  "pk": 6,
+  "fields": {
+    "title": "Python Books",
+    "slug": "python-books",
+    "body": "## Mejores Libros de Python Actualizados 2025 para Programadores Intermedios\r\n\r\nPara un programador intermedio en Python, la selección de material de aprendizaje determina la velocidad y profundidad de progresión hacia experticia. En 2025, los editores reconocidos (O'Reilly, Addison-Wesley, Manning, No Starch Press) han publicado y actualizado títulos que equilibran rigor técnico con accesibilidad, enfocándose en patrones \"pythónicos\" e idiomas específicos del lenguaje.\r\n\r\n### Recomendaciones Principales por Perfil\r\n\r\n**Fluent Python (2da Edición, 2022)** — Luciano Ramalho, O'Reilly[1][2][3]\r\n\r\nEste es el libro más recomendado entre programadores intermedios a avanzados. Con casi 1,000 páginas y una calificación de 4.3 estrellas en Goodreads (70% con 5 estrellas), ofrece cobertura exhaustiva de conceptos pythónicos. La segunda edición (2022) se actualizó para Python 3.10 e incorpora capítulos nuevos sobre asincronía, type hints, pattern matching y coroutinas. La estructura permite saltear entre temas según necesidad, y el énfasis en \"escribir código fluido\" resuena especialmente con programadores que provienen de otros lenguajes. Un revisor de ACCU lo describió como \"ideal para quienes ya han escrito programas Python y quieren realmente entenderlo\". El nivel de dificultad es consistentemente alto (4/5), requiriendo que ya domines fundamentos.[2]\r\n\r\n**Effective Python (3ª Edición, 2024)** — Brett Slatkin, Addison-Wesley[4][5][6][7]\r\n\r\nRecientemente actualizado en 2024, este libro presenta 125 \"items\" específicos (aumentados de 59 en la primera edición), cada uno una lección autónoma sobre cómo escribir mejor código Python. Con 672 páginas y 4.27 estrellas en Goodreads, su formato modular permite leer secciones en cualquier orden. Cada item incluye problema, solución, ejemplos de código, y una sección \"Things to Remember\" que facilita repasos rápidos. El editor lo posiciona como ideal para \"programadores intermedios que buscan dominar el arte de la programación Python\" con especial énfasis en concurrencia, paralelismo y robustez. Un revisor de DZone destacó que \"incluso desarrolladores experimentados se benefician de explicaciones como las del Capítulo 6 (Metaclases y Atributos)\". La dificultad es consistente a través del texto (4/5).[5]\r\n\r\n**Python Distilled (2021)** — David Beazley, Addison-Wesley[8][9][10][11]\r\n\r\nA diferencia de los anteriores, este libro de 352 páginas adopta una estrategia deliberadamente minimalista. Beazley, con 20+ años en Python y autor del respetado Python Cookbook, destila únicamente lo esencial sin herramientas ancillares (pip, deployment). Con 4.35 estrellas en Goodreads, es la puntuación más alta entre los títulos intermedios, aunque con una base menor de reseñas (85+ ratings). Un revisor de inventwithpython.com lo calificó con 5 estrellas, calificándolo como \"perfectamente titulado para programadores experimentados que necesitan aprender Python\". Su nivel de dificultad es moderado (3.5/5), lo que lo hace accesible para programadores con experiencia en otros lenguajes. Los capítulos abarcan operadores, funciones, POO, módulos, async/await, pero omiten deliberadamente tópicos de ingeniería de software a gran escala. Es ideal como segundo o tercer libro Python.[10]\r\n\r\n### Alternativas Especializadas\r\n\r\n**Python Cookbook (3ª Edición, 2013)** — David Beazley & Brian K. Jones, O'Reilly[12][13][14][15]\r\n\r\nAunque publicado en 2013, sigue siendo estándar en referencia. Con 600+ páginas, contiene 262 recetas prácticas organizadas en 15 capítulos. Cada receta (promediando 2 páginas, algunas hasta 15) aborda problemas específicos con soluciones idiomáticas. Un revisor de ACCU lo recomendó explícitamente, mientras que otro lector adicionó 12 páginas con marcadores, indicando densidad de contenido valioso. La dificultad es más alta (4.5/5) debido a la cobertura de metaprogramming, async, e integración con C. Este es más un libro de referencia que de aprendizaje lineal, excelente para consulta cuando enfrentas problemas específicos.[13][14]\r\n\r\n**Classic Computer Science Problems in Python (2019)** — David Kopec, Manning[16][17][18]\r\n\r\nCon 224 páginas concentradas, este libro toma algoritmos clásicos de currículos CS (recursión, programación dinámica, búsqueda, grafos, algoritmos genéticos, redes neuronales) y los enseña mediante código Python con type hints. Requiere Python 3.7+ y conocimiento intermedio. Kopec describe explícitamente que no es para principiantes, pero sí para \"programadores intermedios que quieren llevar sus habilidades al siguiente nivel\". La dificultad se mantiene en 4/5, orientada a algoritmia más que lenguaje puro.[17]\r\n\r\n**High Performance Python (2020)** — Micha Gorelick & Ian Ozsvald, O'Reilly[19][20][21]\r\n\r\nEste libro se enfoca en optimización: profiling, mejora de Python puro, NumPy, compilación a C, concurrencia y multiprocessing. Un revisor señaló que \"el verdadero valor está en entender cómo la arquitectura subyacente hace que ciertos patrones sean efectivos\". Con 400 páginas, es práctico y \"data-driven\" (muestra código y benchmarks). Dificultad: 4/5. Recomendado si tu enfoque es producción y performance.[21]\r\n\r\n**Beyond the Basic Stuff with Python (2019)** — Al Sweigart, No Starch Press[22][23]\r\n\r\nUn \"puente entre novato y profesional\" con 384 páginas (4.25 estrellas). Sweigart, conocido por su estilo accesible en \"Automate the Boring Stuff with Python\", trata buenas prácticas para código limpio: OOP, funciones, manejo de archivos, automatización. Dificultad más baja (3/5), haciéndolo apto para quienes están transitando de principiante a intermedio. Menos denso que Fluent Python pero más directo.\r\n\r\n**Practices of the Python Pro (2020)** — Dane Hillard, Manning[24][25]\r\n\r\nEnfocado en diseño de software para largo plazo: organización de proyectos, abstracción, herencia, composición, testing, performance. Con 320 páginas, enseña a escribir código \"fácil de entender, mantener y escalar.\" Dificultad: 3.5/5. Útil si trabajas en proyectos empresariales o quieres mejorar arquitectura de código.\r\n\r\n### Comparación por Caso de Uso\r\n\r\n| Caso de Uso                              | Libro Recomendado                 | Razón                                                            |\r\n| ---------------------------------------- | --------------------------------- | ---------------------------------------------------------------- |\r\n| **Dominar Python idiomático**            | Fluent Python 2da ed.             | Cobertura exhaustiva, énfasis en \"pythónico\", actualizado a 3.10 |\r\n| **Mejorar código existente rápidamente** | Effective Python 3ra ed.          | 125 items modulares, aplicables inmediatamente, actualizado 2024 |\r\n| **Segundo libro (no abrumador)**         | Python Distilled                  | Minimalista, bien paginado, cubre lo esencial sin excesos        |\r\n| **Referencia práctica**                  | Python Cookbook 3ra ed.           | 262 recetas, soluciones a problemas específicos                  |\r\n| **Algoritmos y CS**                      | Classic Computer Science Problems | Problemas clásicos, enfoque CS, type hints                       |\r\n| **Performance y optimización**           | High Performance Python           | Profiling, NumPy, Cython, concurrencia                           |\r\n| **Transición principiante → intermedio** | Beyond the Basic Stuff            | Menos denso, práctico, buen puente                               |\r\n| **Diseño de software empresarial**       | Practices of the Python Pro       | Arquitectura, testing, patterns profesionales                    |\r\n\r\n### Evaluación de Dificultad y Popularidad\r\n\r\nLos libros más recomendados (Fluent Python, Effective Python) mantienen dificultad alta (4/5) pero ratings excepcionales (4.27-4.3 estrellas). Python Distilled logra la puntuación más alta (4.35) con una dificultad moderada (3.5/5), sugiriendo que el contenido equilibrado y conciso es extremadamente valorado. Los libros de O'Reilly dominan por cantidad (4 títulos), mientras que Manning y Addison-Wesley ofrecen alternativas especializadas.\r\n\r\n### Actualización a Python 3.12/3.13 (2024-2025)\r\n\r\nLos libros más recientes (Effective Python 3ra ed., basados en 2024) incluyen features como type hints mejorados, pattern matching, y async/await. Sin embargo, la mayoría de intermediarios no necesita esperar nuevas ediciones; las 2da ediciones de Fluent Python (2022) y Python Distilled (2021) cubren cambios significativos hasta Python 3.10.\r\n\r\n### Recomendación Final\r\n\r\nPara máximo retorno en tiempo de aprendizaje: **comienza con Effective Python 3ª edición** (items modulares permiten estudio no lineal), luego profundiza con **Fluent Python 2ª edición** (comprensión exhaustiva). Si vienes de otro lenguaje, **Python Distilled primero**. Complementa con **Python Cookbook** como referencia para problemas específicos durante desarrollo real.\r\n\r\n---\r\n\r\nFluent Python 2nd Edition - Goodreads 4.3★[1][26][27]\r\nEffective Python 3rd Edition - Goodreads 4.27★[4][6][7][28]\r\nPython Distilled - Goodreads 4.35★[8][11][29]\r\nPython Cookbook 3rd Edition - Goodreads 4.2★[12][13]\r\nClassic Computer Science Problems in Python - Manning[16][17]\r\nHigh Performance Python - O'Reilly[19][20][21]\r\nBeyond the Basic Stuff with Python - Goodreads 4.25★[22][23]\r\nPractices of the Python Pro - Manning[24][25]",
+    "publish": "2025-12-30T08:51:28Z",
+    "created": "2025-12-30T08:52:14.313Z",
+    "updated": "2025-12-30T08:52:14.313Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "chronicles.comment",
+  "pk": 1,
+  "fields": {
+    "post": 4,
+    "name": "uriel",
+    "email": "testuser@email.com",
+    "body": "esto es una prueba",
+    "created": "2025-12-26T04:53:02.204Z",
+    "updated": "2025-12-26T04:53:02.204Z",
+    "active": true
+  }
+},
+{
+  "model": "chronicles.comment",
+  "pk": 2,
+  "fields": {
+    "post": 4,
+    "name": "jhjsd",
+    "email": "error@lord.com",
+    "body": "fsfkjsef",
+    "created": "2025-12-26T04:55:58.763Z",
+    "updated": "2025-12-26T04:55:58.763Z",
+    "active": true
+  }
+}
+]
