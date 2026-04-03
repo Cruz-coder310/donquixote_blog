@@ -4,6 +4,7 @@ from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.db.models import Count
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
+from django.contrib.auth.decorators import login_required
 
 # Third-Party package
 from taggit.models import Tag
@@ -13,6 +14,7 @@ from .forms import EmailPostForm, CommentForm
 from .models import Post
 
 
+@login_required
 def post_list(request, tag_slug=None):
     post_list = Post.published.all()
     tag = None

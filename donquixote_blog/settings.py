@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "taggit",
     # apps
     "chronicles.apps.ChroniclesConfig",
+    "accounts.apps.AccountsConfig",
 ]
 
 MIDDLEWARE = [
