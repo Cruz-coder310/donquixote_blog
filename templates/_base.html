@@ -12,6 +12,26 @@
         </title>
         <link rel="stylesheet" href="{% static 'css/chronicles.css' %}">
     </head>
+    <header>
+        <nav>
+            <div>
+                <a href="#">donquixote family</a>
+            </div>
+            <div>
+                <a href="{% url "chronicles:post_list" %}">posts</a>
+            </div>
+            <div>
+                {% if user.is_authenticated %}
+                    <form action="{% url 'logout' %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit">Sign Out</button>
+                    </form>
+                {% else %}
+                    <a href="{% url 'login' %}">log in</a>
+                {% endif %}
+            </div>
+        </nav>
+    </header>
     <body>
         <div id="content">
             {% block content %}
