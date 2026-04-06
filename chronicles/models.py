@@ -25,11 +25,17 @@ class Post(models.Model):
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
-    status = models.CharField(max_length=2, choices=Status, default=Status.DRAFT)
+    status = models.CharField(
+        max_length=2,
+        choices=Status,
+        default=Status.DRAFT,
+    )
     author = models.ForeignKey(
         settings.AUTH_USER_MODEL,
-        on_delete=models.CASCADE,
-        related_name="chronicles_posts",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="posts",
     )
     objects = models.Manager()
     published = PublishedManager()
@@ -58,13 +64,17 @@ class Post(models.Model):
 
 
 class Comment(models.Model):
+    author = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.SET_NULL,
+        null=True,
+        related_name="author_comments",
+    )
     post = models.ForeignKey(
         Post,
         on_delete=models.CASCADE,
         related_name="comments",
     )
-    name = models.CharField(max_length=25)
-    email = models.EmailField()
     body = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
@@ -77,4 +87,5 @@ class Comment(models.Model):
         ]
 
     def __str__(self):
-        return f"Comment by {self.name} on {self.post}"
+        user = self.author if self.author else "Anonymous"
+        return f"Comment by {user} on {self.post}"

@@ -76,6 +76,7 @@ def post_detail(request, year, month, day, slug):
     )
 
 
+@login_required
 @require_POST
 def post_comment(request, post_id):
     post = get_object_or_404(Post.published, id=post_id)
@@ -84,6 +85,7 @@ def post_comment(request, post_id):
     form = CommentForm(data=request.POST)
     if form.is_valid():
         comment = form.save(commit=False)
+        comment.author = request.user
         comment.post = post
         comment.save()
 
