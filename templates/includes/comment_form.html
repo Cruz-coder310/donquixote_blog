@@ -1,8 +1,14 @@
 <h2>Add a new comment</h2>
-<form action="{% url "chronicles:post_comment" post.id %}" method=post>
-    {% csrf_token %}
-    {{ form.as_p }}
+{% if user.is_authenticated %}
+    <form action="{% url "chronicles:post_comment" post.id %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <p>
+            <input type="submit" value="Add comment">
+        </p>
+    </form>
+{% else %}
     <p>
-        <input type="submit" value="Add comment">
+        <a href="{% url 'login' %}?next={{ request.path }}">Please log in to add a comment</a>
     </p>
-</form>
+{% endif %}
