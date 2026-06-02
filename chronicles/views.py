@@ -1,8 +1,10 @@
 # Django Core
+from django.http import HttpResponseForbidden
 from django.shortcuts import get_object_or_404, redirect, render
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.db.models import Count
 from django.core.mail import send_mail
+from django.utils.text import slugify
 from django.views.decorators.http import require_POST
 from django.contrib.auth.decorators import login_required
 
@@ -10,7 +12,7 @@ from django.contrib.auth.decorators import login_required
 from taggit.models import Tag
 
 # Local apps impots
-from .forms import EmailPostForm, CommentForm
+from .forms import EmailPostForm, CommentForm, PostForm
 from .models import Post
 
 
@@ -137,4 +139,31 @@ def post_share(request, post_id):
             "post": post,
             "sent": sent,
         },
+    )
+
+
+@login_required
+def edit_or_create_post(request, post_id=None):
+    post = None
+
+    if post_id:
+        post = get_object_or_404(Post, id=post_id, author=request.user)
+
+    if request.method == "POST":
+        form = PostForm(request.POST, instance=post)
+        if form.is_valid():
+            new_post = form.save(commit=False)
+            if not post:
+                new_post.author = request.user
+            new_post.save()
+            form.save_m2m()
+            return redirect(new_post.get_absolute_url())
+
+    else:
+        form = PostForm(instance=post)
+
+    return render(
+        request,
+        "chronicles/edit_or_create_post.html",
+        {"form": form},
     )

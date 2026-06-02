@@ -1,0 +1,16 @@
+{% extends "_base.html" %}
+{% block content %}
+    {% if form %}
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">
+                {% if form.instance.id %}
+                    Edit Post
+                {% else %}
+                    Create new post
+                {% endif %}
+            </button>
+        </form>
+    {% endif %}
+{% endblock content %}
